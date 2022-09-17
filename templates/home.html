@@ -23,7 +23,13 @@
       <h2 class='text-center mt-4 mb-4'>About Suditi Group of Institutions</h2>
       <p class="lead">We at Suditi Global Academy, are earnestly committed to the noble pursuit of imparting knowledge and education to its pupils based on values, personality development and character-building. Our Mission is not only to teach our children but to educate them, not to make them learn but to be a learner themselves, not to train them but to develop the capacity for self training. We also generate among students respect for institutions, family and society, the feeling of social cohesion, respect for tradition, belief and practices of other and advancement towards a well-knit society based on values.</p>
       <h2 class='text-center mt-4 mb-4'>Open Positions</h2>
-      <p >To-Do Show the Jobs here</p>
+      <p >
+        <div>
+          {% for job in jobs %}
+            {% include 'jobitems.html' %}            
+          {% endfor %}
+        </div>
+      </p>
       <div class="text-center">
         <button class="btn btn-primary btn-lg">Contact Us</button> 
         <p class='mt-4'>Copyright @SUDITI 2022</p>
