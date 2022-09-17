@@ -30,6 +30,12 @@ JOBS=[
     'title':'HOSTEL-WARDEN',
     'location':'Mainpuri',
     'salary':'Rs. 65,000'
+  },
+  {
+    'id':6,
+    'title':'WEB-ADMIN',
+    'location':'Mainpuri',
+    'salary':'Rs. 120,000'
   }
 ]
 
